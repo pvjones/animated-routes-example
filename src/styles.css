@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+}
+
+div[role="group"][tabindex] {
+  display: flex;
+  flex: 1;
+}
+
+.App {
+  height: 100%;
+  font-family: sans-serif;
+}
